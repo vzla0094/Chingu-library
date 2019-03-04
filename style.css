@@ -1,11 +1,8 @@
-@import "@material/card/mdc-card";
+/* #results{
+  display: grid;
+  grid-gap: 30px; 
+} */
 
-.my-card__media {
-  background-image: url("http://books.google.com/books/content?id=uoxUloj09YEC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api");
-  background-size: cover;  
-}
-
-.my-card {
-  width: 128px;
-  height: auto;
+.card{
+  max-width: 160px;
 }
